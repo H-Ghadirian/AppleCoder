@@ -27,5 +27,5 @@ struct DetailView: View {
 }
 
 #Preview {
-    DetailView(topic: .init(name: "SwiftUI", githubLink: "https://github.com/ghadirianh/AppleCoder/blob/master/SwiftUI/ContentView.swift"), content: AnyView(Text("Hello, World!")))
+    DetailView(topic: .init(name: "SwiftUI", githubLink: "https://github.com/ghadirianh/AppleCoder/blob/master/SwiftUI/ContentView.swift", tags: []), content: AnyView(Text("Hello, World!")))
 }
